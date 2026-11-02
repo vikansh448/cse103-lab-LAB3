@@ -1,106 +1,66 @@
-\# Markdown Syntax Guide
+# Markdown Syntax Guide
 
+## 1. Headings
 
+# Heading 1
+## Heading 2
+### Heading 3
 
-\## 1. Headings
+## 2. Text Formatting
 
+**Bold text**
 
+*Italic text*
 
-\# Heading 1
+~~Strikethrough text~~
 
-\## Heading 2
+## 3. Unordered List
 
-\### Heading 3
+- Item A
+- Item B
+  - Nested item B1
+  - Nested item B2
 
+## 4. Ordered List
 
+1. First step
+2. Second step
+3. Third step
 
-\## 2. Text Formatting
+## 5. Inline Code
 
+Use `print("Hello")` to display a message in Python.
 
-
-\*\*Bold text\*\*
-
-
-
-\*Italic text\*
-
-
-
-\~\~Strikethrough text\~\~
-
-
-
-\## 3. Lists
-
-
-
-\- First item
-
-\- Second item
-
-\- Third item
-
-
-
-1\. First step
-
-2\. Second step
-
-3\. Third step
-
-
-
-\## 4. Links
-
-
-
-\[GitHub](https://github.com)
-
-
-
-\## 5. Code
-
-
-
-Inline code: `print("Hello, Git!")`
-
-
+## 6. Fenced Code Block
 
 ```python
+def greet(name):
+    return f"Hello, {name}!"
 
-print("Hello, Git!")
-
+print(greet("Vikansh"))
 ```
 
+## 7. Hyperlinks
 
+[GitHub](https://github.com)
 
-\## 6. Table
+[Markdown Guide](https://www.markdownguide.org/)
 
+## 8. Tables
 
+| Column 1 | Column 2 | Column 3 |
+|----------|:--------:|----------:|
+| Left | Centre | Right |
+| Apple | Orange | Mango |
 
-| Topic | Purpose |
+## 9. Blockquotes
 
-|---|---|
+> An important note or reference goes here.
 
-| Git | Version control |
+## 10. Horizontal Divider
 
-| Markdown | Documentation |
+---
 
+## Conclusion
 
-
-\## 7. Task List
-
-
-
-\- \[x] Create a guide
-
-\- \[ ] Review the README
-
-
-
-\## 8. Horizontal Rule
-
-
-
-\---
-
+Markdown is a lightweight formatting language used to create professional documentation on GitHub.
